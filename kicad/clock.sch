@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:clock-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
@@ -59,7 +58,7 @@ F 3 "~" H 900 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dk_Crystals:ECS-_327-12_5-34B-TR XTAL1
+L clock-rescue:ECS-_327-12_5-34B-TR-dk_Crystals XTAL1
 U 1 1 5D03E855
 P 1300 1650
 F 0 "XTAL1" H 1300 1890 50  0000 C CNN
@@ -79,7 +78,7 @@ F 12 "Active" H 1500 2850 60  0001 L CNN "Status"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dk_Logic-Flip-Flops:SN74HC74N U5
+L clock-rescue:SN74HC74N-dk_Logic-Flip-Flops U5
 U 1 1 5D03F41F
 P 4000 1750
 F 0 "U5" H 3750 2200 60  0000 C CNN
@@ -1471,7 +1470,7 @@ F 3 "~" H 5150 11825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Clock-Timing-Programmable-Timers-and-Oscillators:NE555P U11
+L clock-rescue:NE555P-dk_Clock-Timing-Programmable-Timers-and-Oscillators U11
 U 1 1 5D95E044
 P 5750 11250
 F 0 "U11" H 5550 11625 60  0000 C CNN
